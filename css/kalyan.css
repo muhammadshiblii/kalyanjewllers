@@ -1,0 +1,286 @@
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.left a{
+    text-decoration: none;
+    color: rgba(37, 33, 33, 0.299);
+}
+.left a:hover{
+    color: black;
+}
+.right a{
+    text-decoration: none;
+    color: rgba(37, 33, 33, 0.299);
+}
+.right a:hover{
+    color: black;
+}
+.left,.right{
+  font-size: 12px;
+}
+.right i{
+    background-color: rgb(222, 3, 3);
+    color: white;
+    font-size: 15px;
+    border-radius: 100%;
+    padding: 6px;
+    margin-right: 10px;
+}
+.navv{
+    background-color: aquamarine;
+
+}
+.nav img{
+    width:100px;
+}
+.nav a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: rgba(34, 33, 33, 0.708);
+    text-decoration: none;
+}
+.nav .s{
+    margin-top:50px;
+}
+.nav a:hover{
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+.banner{
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}   
+.text-banner h1{
+    letter-spacing: 12px;
+    padding-bottom: 8px;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif Arial, Helvetica, sans-serif;
+} 
+.ul{
+    border-bottom: 1px solid white;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.text-banner h1,.text-banner p{
+    color: white;
+}
+.most-loved{
+    text-align: center;
+    background-color: rgba(248, 234, 236, 0.955);
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.most-loved h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 32px;
+    color: #253953;
+    letter-spacing: 5px;
+}
+.ul-most-loved{
+    border-bottom: 1px solid #253953;
+    width: 190px;
+    margin: auto;
+}
+.images-collection{
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.images-collection img{
+    width: 60%;
+    transition: 0.5s;
+}
+.images-collection1{
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.images-collection1 img{
+    width: 60%;
+}
+.images-collection img:hover{
+    /* -webkit-filter: brightness(.5); */
+    filter: brightness(.3);
+}
+.hide-btn{
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.colction-img:hover img{
+    filter: brightness(0.2);
+}
+.colction-img:hover .hide-btn{
+    opacity: 1;
+}
+.colction-img:hover .hide-btn a{
+    color: white;
+}
+.hide-btn a{
+    text-decoration: none;
+    color: white;
+}
+.hide-btn{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.colction-img{
+    position: relative;
+}
+.colction-img .hide-btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 270px;
+    height: 60px;
+    padding-top: 17px;
+    opacity: 0;
+}
+.colction-img .hide-btn:hover{
+    border: 2px solid white;
+}
+.colction-img a{
+   
+    color: white;
+    text-decoration: none;
+   width: 210px;
+   height: 40px;
+   padding-top: 7px;
+}
+.colction-img a:hover{
+    color: white;
+}
+.ul-miracle{
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.miracle-text{
+    font-size: 19px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+.text-under-miracle{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.new-this-month{
+    background-color: rgba(248, 234, 236, 0.955);
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.new-this-month h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 32px;
+    color: #172c48;
+    letter-spacing: 5px;
+}
+.ul-new-month{
+    border-bottom: 2px solid black;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.new-this-month img{
+    border: 10px solid white;
+    margin-top: 40px;
+}
+.most-popular{
+    background-color: rgba(248, 234, 236, 0.955);
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.most-popular h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 32px;
+    color: #172c48;
+    letter-spacing: 5px;
+}
+.ul-most-popular{
+    border-bottom: 2px solid black;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.explore-all{
+    background-color: rgba(248, 234, 236, 0.955);
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 45px;
+}
+.explore-all h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 32px;
+    color: #172c48;
+    letter-spacing: 5px;
+}
+.ul-explore-all{
+    border-bottom: 1px solid black;
+    width: 12%;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.bar-crsl{
+    width: 30%;
+}
+.bar-crsl a{
+    text-decoration: none;
+    color: #253953;
+}
+.bar-crsl h4:hover{
+    background-color: #253953;
+    color: white;
+    transition: 0.5s;
+}
+.bar-crsl h4{
+    font-size: 22px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.major{
+    width: 70%;
+    margin: auto;
+}
+.icons{
+    color: red;
+    border: 1px solid black;
+    padding: 22px 22px;
+    font-weight: 200;
+}
